@@ -1,0 +1,27 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('.signIn').click(function () {
+            $('.fold').toggleClass('active')
+        })
+    })
+</script>
+
+<div class="container">
+     <div class="signIn">Kirjaudu sisään</div>
+     <div class="fold">
+         <form>
+             <input type="text" name="" placeholder="Käyttäjätunnus" >
+             <input type="password" name="" placeholder="Salasana" >
+             <input type="submit" name="" value="Kirjaudu" >
+             <a href="#"> Uusi käyttäjä</a>
+         </form>
+     </div>
+</div>
+
+
+

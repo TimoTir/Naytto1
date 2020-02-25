@@ -1,0 +1,17 @@
+﻿body {
+    margin:0;
+    padding:0;
+    background-color:azure;
+    font-family:'Microsoft Sans Serif';
+}
+.container
+{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    width:400px;
+    border-radius:5px;
+    box-sizing: border-box;
+    overflow:hidden;
+}
