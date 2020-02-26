@@ -212,6 +212,7 @@
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
     <Content Include="Views\Logins\StyleSheet1.css" />
+    <Content Include="Views\Valikko\StyleSheet1.css" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -227,7 +228,7 @@
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Logins\Index.cshtml" />
-    <Content Include="Views\Valikko\Index.cshtml" />
+    <Content Include="Views\Valikko\Päävalikko.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

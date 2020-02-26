@@ -9,9 +9,35 @@ namespace Naytto1.Controllers
     public class ValikkoController : Controller
     {
         // GET: Valikko
-        public ActionResult Index()
+        public ActionResult Päävalikko()
+        {
+            return View();
+        }
+
+        public ActionResult Tuotteet()
+        {
+            return View();
+        }
+
+        public ActionResult Tilaus()
+        {
+            return View();
+        }
+
+        public ActionResult Tilausrvi()
+        {
+            return View();
+        }
+
+        public ActionResult Asiakkaat()
+        {
+            return View();
+        }
+
+        public ActionResult Henkilöstö()
         {
             return View();
         }
     }
+
 }
